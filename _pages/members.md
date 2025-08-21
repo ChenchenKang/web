@@ -43,4 +43,3 @@ author_profile: true
 {% endfor %}
 </div>
 
-> To add a new member, edit `_data/members.yml` (add a new block) and upload their photo to `images/members/`.
