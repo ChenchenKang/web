@@ -22,5 +22,3 @@ Join us
 I am actively seeking fully-funded Master’s students to join my lab. If you are interested in our research, please email me with your CV. Students with backgrounds in mechanical engineering, electrical and computer engineering, and agricultural/biological/food engineering are especially encouraged to apply.
 
 Hands-on experience and skills in the following areas are highly valued: Artificial Intelligence, robotics control and learning, CAD design, ROS, Python, C++, and machine vision.
-
-ithub.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
