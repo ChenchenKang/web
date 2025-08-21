@@ -11,11 +11,11 @@ I am an Assistant Professor in the Department of Agricultural Science and Engine
 
 **Research Interests:**
 
-***Precision and autonomous agricultural machinery** – design and evaluation of intelligent systems to improve efficiency and sustainability.
+* **Precision and autonomous agricultural machinery** – design and evaluation of intelligent systems to improve efficiency and sustainability.
 
-***AI, computer vision, and field robotics in agriculture** – developing smart sensing and robotic solutions for crop monitoring and management.
+* **AI, computer vision, and field robotics in agriculture** – developing smart sensing and robotic solutions for crop monitoring and management.
 
-***Modeling, simulation, and control of agricultural systems** – creating data-driven and physics-based models to optimize resource use and system performance.
+* **Modeling, simulation, and control of agricultural systems** – creating data-driven and physics-based models to optimize resource use and system performance.
 
 Join us
 ======
