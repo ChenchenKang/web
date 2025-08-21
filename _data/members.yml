@@ -17,6 +17,7 @@
   role: "M.S. Student"
   program: "Agricultural Engineering"
   start: 2026
+  email:
   # photo:  # leave blank to use default
   tags: ["AI", "ROS", "Spraying"]
 
@@ -24,5 +25,6 @@
   name: "Undergraduate Researcher"
   role: "B.S. Student"
   start: 2026
+  email:
   # photo:
   tags: ["Perception", "Python"]
