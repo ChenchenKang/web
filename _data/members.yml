@@ -9,20 +9,20 @@
   start: 2025
   email: "ckang1@tnstate.edu"
   scholar: "https://scholar.google.com/citations?user=coQd5vUAAAAJ&hl=en"
-  photo: "/images/members/default.png"
+  photo: "/images/profile.png"
   tags: ["Precision ag", "Robotics", "Computer vision"]
 
 - id: grad-1
   name: "Graduate Student"
   role: "M.S. Student"
   program: "Agricultural Engineering"
-  start: 2025
+  start: 2026
   # photo:  # leave blank to use default
   tags: ["AI", "ROS", "Spraying"]
 
 - id: ug-1
   name: "Undergraduate Researcher"
   role: "B.S. Student"
-  start: 2025
+  start: 2026
   # photo:
   tags: ["Perception", "Python"]
