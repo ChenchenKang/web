@@ -1,8 +1,8 @@
 ---
-title: "Paper Title Number 1"
+title: "A recursive segmentation model for Bok Choy growth monitoring with Internet of Things (IoT) technology in controlled environment agriculture"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/A recursive segmentation model for Bok Choy growth monitoring with Internet of Things (IoT) technology in controlled environment agriculture
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2009-10-01
 venue: 'Journal 1'
