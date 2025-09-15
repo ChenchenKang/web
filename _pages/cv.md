@@ -2,7 +2,7 @@
 layout: single
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 ---
 
 {% assign cv_url = '/files/ChenchenKang_CV.pdf' | relative_url %}
