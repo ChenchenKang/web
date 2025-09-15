@@ -1,11 +1,13 @@
 ---
 permalink: /
 title: "Welcome"
-author_profile: true
+layout: single        # <- add this
+author_profile: true  # <- keep this
 redirect_from: 
   - /about/
   - /about.html
 ---
+
 
 I am an Assistant Professor in the Department of Agricultural Science and Engineering at Tennessee State University, based at the Otis L. Floyd Nursery Research Center in McMinnville, Tennessee. My research focuses on advancing agricultural automation and digital technologies to support specialty crop production.
 
