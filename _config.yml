@@ -233,59 +233,65 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
+  # Homepage (About page) — keep profile
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+
+  # All posts (blog/news) — no profile
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # Teaching pages — no profile
   - scope:
       path: ""
       type: teaching
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
-  # _publications
+
+  # Publications — no profile
   - scope:
       path: ""
       type: publications
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
-  # _portfolio
+
+  # Portfolio — no profile
   - scope:
       path: ""
       type: portfolio
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
-      comment: true
-  # _talks
+      comments: true
+
+  # Talks — no profile
   - scope:
       path: ""
       type: talks
     values:
       layout: talk
-      author_profile: true
+      author_profile: false
       share: true
+
 
 
 # Sass/SCSS
