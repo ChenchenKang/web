@@ -239,7 +239,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
   # All posts (blog/news) — no profile
   - scope:
