@@ -2,7 +2,7 @@
 layout: single
 title: "Members"
 permalink: /members/
-author_profile: true
+author_profile: false
 ---
 
 <!-- Simple, responsive card grid -->
