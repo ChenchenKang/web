@@ -231,17 +231,30 @@ collections:
     permalink: /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
 defaults:
-  # Homepage (About page) — keep profile
+  # 0) Global kill-switch: turn the author profile OFF everywhere by default
   - scope:
       path: ""
-      type: pages
     values:
-      layout: single
       author_profile: false
 
-  # All posts (blog/news) — no profile
+  # 1) Turn it ON only for your homepage file.
+  # If your homepage is "index.md" at the repo root, keep this block:
+  - scope:
+      path: "index.md"
+    values:
+      layout: single
+      author_profile: true
+
+  # If your homepage is "_pages/about.md" instead, comment the block above
+  # and use this one:
+  # - scope:
+  #     path: "_pages/about.md"
+  #   values:
+  #     layout: single
+  #     author_profile: true
+
+  # 2) Keep your other collection settings (explicitly OFF, plus any options you want)
   - scope:
       path: ""
       type: posts
@@ -253,7 +266,6 @@ defaults:
       share: true
       related: true
 
-  # Teaching pages — no profile
   - scope:
       path: ""
       type: teaching
@@ -263,7 +275,6 @@ defaults:
       share: true
       comments: true
 
-  # Publications — no profile
   - scope:
       path: ""
       type: publications
@@ -273,7 +284,6 @@ defaults:
       share: true
       comments: true
 
-  # Portfolio — no profile
   - scope:
       path: ""
       type: portfolio
@@ -283,7 +293,6 @@ defaults:
       share: true
       comments: true
 
-  # Talks — no profile
   - scope:
       path: ""
       type: talks
@@ -291,6 +300,7 @@ defaults:
       layout: talk
       author_profile: false
       share: true
+
 
 
 
