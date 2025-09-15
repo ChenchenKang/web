@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Welcome"
-layout: single        # <- add this
+layout: archive        # <- add this
 author_profile: true  # <- keep this
 redirect_from: 
   - /about/
