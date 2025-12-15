@@ -1,8 +1,9 @@
 /* ============================
-   FULL-WIDTH homepage
+   Wider but clean layout
+   (AcademicPages / Minimal Mistakes)
    ============================ */
 
-/* Remove all theme width constraints */
+/* Remove theme width constraints */
 .wrapper,
 .container,
 .container--lg,
@@ -13,25 +14,24 @@
   max-width: none !important;
 }
 
-/* Remove theme side gutters */
+/* Remove large outer gutters */
 .layout--single .page,
-.layout--single .page__inner-wrap,
-.layout--single .initial-content {
+.layout--single .page__inner-wrap {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* Make content use most of the screen */
+/* Main readable column */
 .layout--single .page__content {
-  max-width: none !important;
+  max-width: 1400px !important;   /* ← key value */
   width: 100% !important;
   margin: 0 auto !important;
-  padding-left: 3rem !important;   /* controls left/right breathing room */
-  padding-right: 3rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 
-/* Optional: keep text readable */
+/* Text rhythm */
 .layout--single .page__content p,
 .layout--single .page__content li {
-  max-width: 1400px;
+  line-height: 1.6;
 }
