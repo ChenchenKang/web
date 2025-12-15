@@ -1,52 +1,33 @@
-/* ===== Fix excessive side margins ===== */
-
-/* Main content container */
-.page__content {
-  max-width: 1100px;   /* try 1000–1200px if you want */
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-/* Remove extra constraints from the wrapper */
-.layout--single .page {
-  max-width: none;
-}
-
-/* Ensure the inner wrapper does not re-constrain width */
-.wrapper {
-  max-width: none;
-}
-
-/* Optional: slightly tighter typography for wide layout */
-.page__content p,
-.page__content li {
-  line-height: 1.55;
-}
-
 /* ============================
-   Robin-style wider content
+   Wider layout (reduce side whitespace)
    ============================ */
 
-/* Remove theme wrapper constraints */
-.layout--single .page {
-  max-width: none !important;
-}
-
-.wrapper {
-  max-width: none !important;
-}
-
-/* Set a wider readable column */
-.page__content {
-  max-width: 1100px !important;   /* try 1000–1200px */
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
-
-/* If you still see big gutters, widen the outer container too */
+/* Remove global width constraints */
+.wrapper,
 .container,
 .container--lg,
 .container--xl {
   max-width: none !important;
 }
 
+/* Expand the primary content frame */
+.initial-content,
+.page,
+.page__inner-wrap {
+  max-width: none !important;
+}
+
+/* Set the readable text column width (Robin-like) */
+.page__content {
+  max-width: 1100px !important;   /* try 1000–1200px */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* Optional: tighten text rhythm slightly */
+.page__content p,
+.page__content li {
+  line-height: 1.55;
+}
