@@ -31,3 +31,6 @@
 .page__content li {
   line-height: 1.55;
 }
+
+body { outline: 6px solid red !important; }
+
