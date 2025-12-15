@@ -1,19 +1,24 @@
-/* =========================================
-   AIR THEME – REMOVE SIDEBAR WHEN NOT USED
-   ========================================= */
+/* ===== Fix excessive side margins ===== */
 
-/* When author_profile is false, remove sidebar column entirely */
-.layout--single:not(.author-profile) .sidebar {
-  display: none;
+/* Main content container */
+.page__content {
+  max-width: 1100px;   /* try 1000–1200px if you want */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-/* Expand main content to full width */
-.layout--single:not(.author-profile) .page {
-  width: 100%;
-  max-width: 100%;
+/* Remove extra constraints from the wrapper */
+.layout--single .page {
+  max-width: none;
 }
 
-/* Remove left padding that reserved space for sidebar */
-.layout--single:not(.author-profile) .page__content {
-  padding-left: 0;
+/* Ensure the inner wrapper does not re-constrain width */
+.wrapper {
+  max-width: none;
+}
+
+/* Optional: slightly tighter typography for wide layout */
+.page__content p,
+.page__content li {
+  line-height: 1.55;
 }
