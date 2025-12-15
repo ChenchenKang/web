@@ -23,7 +23,7 @@
 
 /* Main readable column */
 .layout--single .page__content {
-  max-width: 1400px !important;   /* ← key value */
+  max-width: 1800px !important;   /* ← key value */
   width: 100% !important;
   margin: 0 auto !important;
   padding-left: 2rem !important;
