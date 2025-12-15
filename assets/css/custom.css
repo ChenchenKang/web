@@ -1,8 +1,8 @@
 /* ============================
-   Robin-style width (Minimal Mistakes / AcademicPages)
+   FULL-WIDTH homepage
    ============================ */
 
-/* Remove theme width limits */
+/* Remove all theme width constraints */
 .wrapper,
 .container,
 .container--lg,
@@ -13,7 +13,7 @@
   max-width: none !important;
 }
 
-/* Remove outer gutters imposed by the theme */
+/* Remove theme side gutters */
 .layout--single .page,
 .layout--single .page__inner-wrap,
 .layout--single .initial-content {
@@ -21,17 +21,17 @@
   padding-right: 0 !important;
 }
 
-/* Set readable column width */
+/* Make content use most of the screen */
 .layout--single .page__content {
-  max-width: 1400px !important;     /* change to 1200px if you want wider */
+  max-width: none !important;
   width: 100% !important;
   margin: 0 auto !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-left: 3rem !important;   /* controls left/right breathing room */
+  padding-right: 3rem !important;
 }
 
-/* Optional: text rhythm */
+/* Optional: keep text readable */
 .layout--single .page__content p,
 .layout--single .page__content li {
-  line-height: 1.55;
+  max-width: 1400px;
 }
