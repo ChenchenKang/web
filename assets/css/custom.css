@@ -1,0 +1,19 @@
+/* =========================================
+   AIR THEME – REMOVE SIDEBAR WHEN NOT USED
+   ========================================= */
+
+/* When author_profile is false, remove sidebar column entirely */
+.layout--single:not(.author-profile) .sidebar {
+  display: none;
+}
+
+/* Expand main content to full width */
+.layout--single:not(.author-profile) .page {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Remove left padding that reserved space for sidebar */
+.layout--single:not(.author-profile) .page__content {
+  padding-left: 0;
+}
