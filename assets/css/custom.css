@@ -1,36 +1,37 @@
 /* ============================
-   Wider layout (reduce side whitespace)
+   Robin-style width (Minimal Mistakes / AcademicPages)
    ============================ */
 
-/* Remove global width constraints */
+/* Remove theme width limits */
 .wrapper,
 .container,
 .container--lg,
-.container--xl {
-  max-width: none !important;
-}
-
-/* Expand the primary content frame */
+.container--xl,
 .initial-content,
 .page,
 .page__inner-wrap {
   max-width: none !important;
 }
 
-/* Set the readable text column width (Robin-like) */
-.page__content {
-  max-width: 1100px !important;   /* try 1000–1200px */
-  margin-left: auto !important;
-  margin-right: auto !important;
+/* Remove outer gutters imposed by the theme */
+.layout--single .page,
+.layout--single .page__inner-wrap,
+.layout--single .initial-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Set readable column width */
+.layout--single .page__content {
+  max-width: 1100px !important;     /* change to 1200px if you want wider */
+  width: 100% !important;
+  margin: 0 auto !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
 }
 
-/* Optional: tighten text rhythm slightly */
-.page__content p,
-.page__content li {
+/* Optional: text rhythm */
+.layout--single .page__content p,
+.layout--single .page__content li {
   line-height: 1.55;
 }
-
-body { outline: 6px solid red !important; }
-
